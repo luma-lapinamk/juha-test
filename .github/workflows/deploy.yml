@@ -24,11 +24,10 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -U pip
-          pip install jupyter-book ghp-import
+          pip install jupyter-book
 
       - name: Build the book
         run: jupyter-book build .
-
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
