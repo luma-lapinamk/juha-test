@@ -10,6 +10,10 @@ Check out the content pages bundled with this sample book to see more.
 
 # Testi
 
+# Testataan automaattista päivitystä
+
+Tuleekos tämä perille?
+
 -asdasd
 
 ```{tableofcontents}
